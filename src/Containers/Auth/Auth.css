@@ -1,0 +1,87 @@
+.Auth{
+    
+   margin-top:7%; 
+    width: 96%;
+    height: 100%;
+  
+    text-align: center;
+    padding: 20px 20px;
+    /* -webkit-box-shadow: 0 2px 3px #cccccc; */
+    /* box-shadow: 0 2px 3px #cccccc; */
+    /* border: 1px solid #eeeeee; */
+    background-color: #f7f7f7;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #666;
+    
+    
+
+}
+.Auth h2{
+    border-bottom: 4px solid #fcdc1f;
+   
+    
+
+}
+.Auth  a,a:active{
+  color: whitesmoke
+}
+.firstDiv{
+    border: 1px solid #666;
+    padding: 10px 10px;
+    text-align: center;
+    margin: 2%;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #0a0233d9;
+    color: white;
+}
+
+.SecondDiv{
+    border-radius: 5px;
+    padding: 10px 10px;
+     margin: 2%; 
+    text-align: center;
+    width: 94%;
+    height: 80%;
+    color: #666;
+    background-color: rgb(233, 229, 229);
+}
+.Input{
+display: block;
+}
+
+@media (min-width:600px){
+    .Auth{
+        width: 100%;
+        height: 100%;
+        display: flex;
+    
+    }
+    .firstDiv{
+        padding: 10px 10px;
+        text-align: center;
+        width:  50%;
+        height: 100%;
+        box-sizing: border-box;
+       
+    
+    }
+    
+    .SecondDiv{
+        width: 50%;
+        margin-top: 2%; 
+        height: 80%;
+        padding: 10px 10px;
+        text-align: center;
+    }
+
+}
+
+ 
+
+ 
+
+  

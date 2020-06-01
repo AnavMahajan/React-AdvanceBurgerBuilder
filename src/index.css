@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+/*   background-image: url("./Assets/Images/table.jpeg");
+  background-repeat: repeat; */
+  background-color: #f7f7f7;
+
+  font-family: -apple-system,Open Sans,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    -webkit-font-smoothing: antialiased;
+}

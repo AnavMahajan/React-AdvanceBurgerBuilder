@@ -1,0 +1,91 @@
+.NewPost {
+    margin-top: 10%;
+    margin-left: 0%;
+    border-bottom: 1px solid #fcdc1f;
+    border: none;
+    text-align: center;
+    background-color: #fff;
+    padding: 10px 10px;
+    color: #666;
+    border-radius: 30px;
+}
+@media(min-width:600px){
+    .NewPost {
+        width: 60%;
+        margin-top: 5% ;
+        margin-left: 20% ;
+        border-bottom: 1px solid #fcdc1f;
+        border: none;
+        text-align: center;
+        background-color: #fff;
+        padding: 10px;
+        color: #666;
+        border-radius: 50px;
+        
+    }
+
+}
+
+.NewPost sub{
+font-weight: 100
+}
+
+.NewPost label {
+    width: 80%;
+    
+    padding: 8px 8px;
+    display: block;
+    margin:  auto;
+    text-align: left;
+    font-weight: normal;
+}
+
+.NewPost p{
+    
+    width: 80%;
+    box-sizing: border-box;
+    text-align: left;
+    outline: none;
+    font: inherit;
+    margin: auto;
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+.NewPost input,
+.NewPost select {
+    width: 80%;
+    background-color: #fff;
+    padding: 10px 10px;
+    margin: auto;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #d6dbdf;
+    
+}
+
+.NewPost textarea{
+    width: 80%;
+    background-color: #FFF;
+    padding: 10px 10px;
+    margin: auto;
+    box-sizing: border-box;
+
+    border: 2px solid #d6dbdf;
+}
+/* .NewPost button {
+    margin: 5px 0;
+    padding: 10px;
+    font: inherit;
+    border: 1px solid #fa923f;
+    background-color: transparent;
+    color: #fa923f;
+    cursor: pointer;
+}
+ */
+.NewPost input:focus,
+.NewPost textarea:focus,
+.NewPost select:focus {
+  
+    outline: none;
+    border-bottom: 2px solid #fcdc1f;
+}

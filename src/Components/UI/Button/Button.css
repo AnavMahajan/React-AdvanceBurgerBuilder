@@ -1,0 +1,61 @@
+.Button {
+    border: none;
+    background-color: #f9e02a;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    margin: 10px 10px 10px 0;
+    font-weight: 1000;
+    font-family: inherit;
+    padding: 15px 30px;
+    border-radius: 7.5px;
+    text-align: center
+  
+}
+
+ .Success:hover,:active{
+   
+/*     border: 1px solid #966909; */
+   /*  color: #966909; */
+/*    border: 1px solid #cccccc;
+ */   color: #222;
+   border-radius: 5px;
+}
+.Danger:hover,:active{
+/*     background-color: rgb(247, 239, 239);
+/*     border: 1px solid #966909; */
+   /*  color: #966909; */
+/*    border: 1px solid #cccccc ;*/
+   color: #222;
+   border-radius: 5px;
+}
+.Button:disabled{
+    background-color: #dbdfe2;
+    cursor: not-allowed;
+    color: #b3b6b8;
+    
+}
+
+
+/* .welcome {
+    margin-left: 40%;
+    
+    padding-left: 30px;
+    font-weight: 1000;
+} */
+/* .Button:first-of-type {
+    margin-left: 0px;
+    padding-left: 30px;
+    font-weight: 1000;
+} */
+
+.Success {
+    color: #222;
+}
+
+.Danger {
+    color: #222;
+    background-color: #eee;
+    text-align: center
+}
+

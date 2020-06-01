@@ -1,0 +1,68 @@
+
+.Burger {
+ 
+    
+    width: 300px;
+    margin: auto;
+    height: 275px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-top: 74px;
+}
+.Burgerimg{
+    background-image: url("../../Assets/Images/table.jpeg");
+    background-size: cover;
+    height: 45vh;
+}
+
+
+
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 0; }
+}
+
+
+@media (min-width: 500px) and (min-height: 400px) {
+    .Burger {
+        width: 350px;
+        height: 300px;
+        background-size: cover;
+    }
+}
+ 
+@media (min-width: 500px) and (min-height: 401px) {
+    .Burger {
+        padding-top: 8vh;
+        padding-bottom: 5.4vh;
+        width: 350px;
+        height: 40vh;
+    }
+}
+ 
+@media (min-width: 1000px) and (min-height: 700px) {
+    .Burger {
+        width: 350px;
+        height: 300px;
+    }
+}
+
+.Logo2 {
+    padding: 15px;
+    height: 18vh;
+    
+
+}
+.Logo2 img {
+    height: 100%;
+     
+}
+

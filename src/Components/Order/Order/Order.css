@@ -1,0 +1,161 @@
+
+
+
+.Order{
+    border: 1px solid #CCC;
+    -webkit-box-shadow: 0 2px 3px #ccc;
+    box-shadow: 0 2px 3px #ccc;
+    font-size: small;
+    padding: 10px;
+    margin-top: 56px;
+    margin-bottom: 1px;
+    margin-left: 0%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: white;
+    display: -ms-inline-flexbox;
+    display: block;
+    width: 100%;
+    text-align: center;
+    /* box-sizing: border-box; */
+    height: 24vh;
+    color: #666;
+    
+  
+    
+}
+
+
+.price{
+    margin: 1%;
+    margin-left: 3%;
+    font-Weight: bold;
+    border-radius: 10px;
+    padding: 0px;
+    width: 1%;
+    height: 2%;
+   
+    font-size: xx-large;
+}
+.ingredients{
+   
+  
+    font-Weight: bold;
+    border-radius: 10px;
+    padding: 0px;
+    width: 0%;
+ 
+    /* margin-left: 7%; */
+    height: 0%;
+    margin-left: 88%;
+ 
+    font-size: xx-large;
+    }
+
+    .totalprice{
+        padding:"22px";
+        width:"7%";
+        margin-left:"12%"
+    }
+
+
+
+@media (min-width:600px){
+    .Order{
+        border: 1px solid #CCC;
+    -webkit-box-shadow: 0 2px 3px #ccc;
+    box-shadow: 0 2px 3px #ccc;
+    font-size: small;
+    text-align: left;
+    padding: 10px;
+    margin-top: 2px;
+    margin-bottom: 1px;
+    margin-left: 13%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: white;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    /* box-sizing: border-box; */
+    height: 15vh;
+    color: #666;
+    width: 74%;
+    }
+    .price{
+        margin: 1%;
+        margin-left: 10%;
+        font-Weight: bold;
+        border-radius: 10px;
+        padding: 0px;
+        width: 1%;
+        height: 2%;
+     
+        font-size: xx-large;
+    }
+    .ingredients{
+   
+  
+        font-Weight: bold;
+            border-radius: 10px;
+            padding: 0px;
+            width: 1%;
+            margin: 1%;
+            margin-left: 14%;
+            height: 1%;
+            font-size: xx-large;
+        }
+     
+    
+    
+}
+
+
+
+.price:hover{
+
+    cursor: pointer;
+  
+ 
+   
+}
+.price i{
+    color: #9e6666;
+  
+}
+
+
+.price span{
+     color: #444;
+    font-weight: normal;
+    text-decoration: underline
+
+}.price span:hover{
+    color: #ccc;
+    font-weight: bolder
+
+}
+
+.ingredients:hover{
+
+    cursor: pointer;
+
+   
+}
+.ingredients i{
+    
+    color: rgb(55, 116, 148);
+ 
+}
+
+.ingredients span{
+    color: #444;
+    font-weight: normal;
+    text-decoration: underline;
+    
+
+}
+.ingredients span:active{
+    color: #85b308;
+    font-weight: bolder
+
+}

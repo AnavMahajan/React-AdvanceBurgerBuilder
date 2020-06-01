@@ -1,0 +1,19 @@
+hr {
+    height: 5px;
+    background-color: #f9e02a;
+    width: 100px;
+    margin-left: 0;
+    border: none;
+}
+.OrderSummary{
+    margin-left: 3px;
+    background-color: #85b308;
+    color: #fff;
+    border-radius: 5px;
+    padding: 7px;
+}
+.OrderSummary bold{
+  font-size: 100px
+}
+
+

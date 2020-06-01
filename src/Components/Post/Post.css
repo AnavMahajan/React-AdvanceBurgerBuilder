@@ -1,0 +1,43 @@
+.Post {
+    width: 100%;
+    padding: 16px;
+    
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    margin: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: #666;
+    background-color: white
+}
+
+@media (min-width:600px){
+    .Post {
+        width: 90%;
+        padding: 16px;
+        
+        border: 1px solid #eee;
+        box-shadow: 0 2px 3px #ccc;
+        margin: 10px;
+        box-sizing: border-box;
+        cursor: pointer;
+        color: #666;
+        background-color: white
+    }
+}
+
+.high{
+border-bottom: 2px solid #fcdc1f;
+}
+
+.Post:hover,
+.Post:active {
+    background-color: #C0DDF5;
+}
+
+.Post .Author{
+    text-align: right;
+    color: #666
+
+}
+
